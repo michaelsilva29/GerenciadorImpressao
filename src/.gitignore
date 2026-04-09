@@ -1,9 +1,0 @@
-*.class 
-out/ 
-.idea/ 
-*.iml 
-*.db 
-*.jar 
-target/ 
-META-INF/ 
-dados_impressao.txt 
