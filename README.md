@@ -53,16 +53,16 @@ Para executar o sistema, você precisa ter instalado:
 **📁 Estrutura do Projeto**
 
 GerenciadorImpressao/
+│
 ├── src/
-│   ├── Database.java           # Conexão e operações com banco de dados
-│   ├── GerenciadorImpressao.java # Lógica principal do sistema
-│   ├── Main.java               # Menu e interface com usuário
-│   ├── RegistroImpressao.java  # Modelo de registro de impressões
-│   └── Usuario.java            # Modelo de usuário
-├── .gitignore                  # Arquivos ignorados pelo Git
-├── README.md                   # Documentação do projeto
-├── sqlite-jdbc-3.44.1.0.jar    # Driver do SQLite
-└── slf4j-simple-2.0.9.jar      # Biblioteca de logging
+│ ├── Database.java (conexão com o banco de dados)
+│ ├── GerenciadorImpressao.java (regras do sistema)
+│ ├── Main.java (menu principal)
+│ ├── RegistroImpressao.java (registro de impressões)
+│ └── Usuario.java (dados do usuário)
+│
+├── .gitignore (arquivos ignorados)
+└── README.md (este arquivo)
 
 **💾 Persistência dos Dados**
 
